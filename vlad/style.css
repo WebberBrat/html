@@ -76,6 +76,8 @@ h1, h2, h3, h4, h5, h6{
 /*Header*/
 
 .header{
+	width: 100%;
+
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -89,11 +91,10 @@ h1, h2, h3, h4, h5, h6{
 	justify-content: space-between;
 	align-items: center;
 }
-/*Loggo*/
 
 
 
-.loggo{
+.header__loggo{
 	font-size: 30px;
 	font-weight: 700;
 	color: #fff;
@@ -110,6 +111,7 @@ h1, h2, h3, h4, h5, h6{
 .nav__link{
 	color: #fff;
 	text-decoration: none;
+	
 	display: inline-block;
 	vertical-align: top;
 	margin: 0 15px;
